@@ -20,6 +20,10 @@ pipeline {
             steps {
                echo "commit  job"
             }
+        stage('play') {
+            steps {
+               echo "play  job"
+            }
         }
         }
 }
