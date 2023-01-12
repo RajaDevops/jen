@@ -8,7 +8,7 @@ pipeline {
             }
         }   
         stage('Unit Test') {
-            agent label{'linux-slave'}
+            agent {label'linux-slave'}
             steps {
                echo "UnitTest  job"
             }
