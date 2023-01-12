@@ -16,5 +16,10 @@ pipeline {
                echo "Package  job"
             }
         }
+        stage('commit') {
+            steps {
+               echo "commit  job"
+            }
+        }
         }
 }
