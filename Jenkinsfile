@@ -1,9 +1,8 @@
 pipeline {
-    agent none
+    agent any
     stages {
         stage('Compile') {
-            agent any
-            steps {
+             steps {
                echo "Compile  job"
             }
         }   
