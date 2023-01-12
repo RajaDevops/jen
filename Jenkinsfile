@@ -26,5 +26,10 @@ pipeline {
                echo "play  job"
             }
         }
+        stage('plawrongy') {
+            steps {
+               echo "playwrong  job"
+            }
+        }
         }
 }
